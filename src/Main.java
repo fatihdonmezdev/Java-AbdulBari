@@ -3,9 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     static boolean isPrime(int x){
-        double halfOfTheGivenNumber = (x / 2.0);
-
-                for(int i=2; i <= halfOfTheGivenNumber ; i++){
+                for(int i=2; i <= x/2 ; i++){
                     if(x % i == 0){
                         return false;
                     }
